@@ -1,0 +1,15 @@
+classes  - > declaration and refeernce
+access specifier
+command line arguments
+try-catch 
+this pointer?
+final, abstract, virtual 
+jagged array
+linkedList
+Inheritance
+exception
+
+string - compare .equals()
+
+codes to be done => lab, buffer -> take index, and value , if value and index both 0 then close the program
+ 
