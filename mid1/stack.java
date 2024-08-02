@@ -11,7 +11,7 @@ class stack {
     }
 
     void push(int val) throws Exception{
-        if (top != size) {
+        if (top < size-1) {
             top++;
             arr[top] = val;
             System.out.println("pushed");
