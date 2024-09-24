@@ -1,6 +1,5 @@
 import java.applet.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
 import java.awt.event.*;;
 
 public class myapplet_with_bottom  extends Applet implements ActionListener{

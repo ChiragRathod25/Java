@@ -7,6 +7,8 @@ class myFrame_with_Btn extends JFrame implements ActionListener{
     int count2=29;
     JButton bref1;
     JButton bref2;
+    int x=0;
+    int y=50;
     myFrame_with_Btn(String title){
         super(title);
         bref1=new JButton("Btn 1");
@@ -18,7 +20,8 @@ class myFrame_with_Btn extends JFrame implements ActionListener{
         this.setLayout(new FlowLayout());
     }
     public void paint(Graphics g){
-            g.drawString("count 1 : "+count1+"  count 2 : "+count2,100,count2);
+            y=y+15;
+            g.drawString("count 1 : "+count1+"  count 2 : "+count2,x,y);
     }
     public void actionPerformed(ActionEvent ae){
         JButton temp=(JButton)(ae.getSource());
