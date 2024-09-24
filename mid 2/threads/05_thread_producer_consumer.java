@@ -1,3 +1,4 @@
+import java.lang.*;
 class myBuffer {
     volatile int info;
     volatile int flag;
