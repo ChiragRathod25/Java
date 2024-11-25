@@ -4,7 +4,7 @@ class thirdClass{
         boolean label=true;
 
         // here into the if statement 
-        // if(i) {} => raise error
+        // if(i) {} => raise error //because it expect true or false, not an integer or string values
         
         if(label)
             System.out.println("Condition satisfied");

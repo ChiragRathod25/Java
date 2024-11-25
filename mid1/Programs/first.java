@@ -12,6 +12,6 @@ class first{
         int number=Integer.parseInt("123");
         // int number=Integer.parseInt("12.3"); => throws an Error 
         System.out.println(number);  
-        System.out.println(Math.sqrt(-5));  
+        System.out.println(Math.sqrt(-5));   //=> it doesn't throw an exception, but returns NaN
     }
 }

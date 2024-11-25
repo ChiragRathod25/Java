@@ -8,3 +8,5 @@
 ### Static Keyword : [GFG](https://www.geeksforgeeks.org/static-keyword-java/)
 
 ### Final Keyword : [GFG](https://www.geeksforgeeks.org/final-keyword-in-java/)
+
+### .hasnext() : [W3School](https://www.w3schools.com/Java/ref_scanner_hasnext.asp)
