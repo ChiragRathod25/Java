@@ -16,6 +16,5 @@ public class myApplet extends Applet {
     public void paint(Graphics g) {
         g.drawString(s, 50, 50);  
     }
-    public void stop(){}
-    public void destroy(){}
+    
 }
