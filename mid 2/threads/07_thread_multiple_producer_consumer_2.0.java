@@ -60,7 +60,7 @@ class producer implements Runnable {
 
     // Each producer produces 3 values and puts them in different buffer slots
     public void run() {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < bref.s; i++) {
             bref.put(i * 41, pId, i);  // Map producer index to buffer index
         }
     }
@@ -84,7 +84,7 @@ class consumer implements Runnable {
 
     // Each consumer consumes values from the buffer at its assigned slot
     public void run() {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < bref.s; i++) {
             bref.get(cId, i);  // Each consumer consumes from a specific buffer index
         }
     }
@@ -92,7 +92,7 @@ class consumer implements Runnable {
 
 class myThreadMain {
     public static void main(String[] args) {
-        myBuffer mb = new myBuffer(3);  
+        myBuffer mb = new myBuffer(5);  
         int n = 5;  
         producer[] p = new producer[n];
         consumer[] c = new consumer[n];

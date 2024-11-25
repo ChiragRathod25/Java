@@ -20,5 +20,13 @@ class myThreadMain {
         th1.start();
         th2.start();
 
+        
+        // try {
+        //     th1.join();
+        // } catch (Exception e) {
+        //     // TODO: handle exception
+        // }
+        // th2.start();
+
     }
 }
